@@ -52,8 +52,8 @@ pip install requests beautifulsoup4 pandas sqlite3
 Klonen Sie das Repository und führen Sie die Skripte wie folgt aus:
 
 ```bash
-git clone [https://github.com/IhrBenutzername/Bildungsserver-Datenextraktion.git](https://github.com/13118915/bbb)
-cd Bildungsserver-Datenextraktion
+git clone https://github.com/13118915/bbb.git
+cd bbb
 python3 datenextraktion_kompetenzen.py
 python3 datenextraktion_themen.py
 ```
