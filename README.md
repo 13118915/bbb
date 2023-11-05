@@ -45,18 +45,4 @@ Stellen Sie sicher, dass Sie Python 3 und die benötigten Bibliotheken installie
 ```bash
 pip install requests beautifulsoup4 pandas
 
-## Verwendung
-
-Klonen Sie das Repository und führen Sie die Skripte wie folgt aus:
-git clone https://github.com/IhrBenutzername/Bildungsserver-Datenextraktion.git
-cd Bildungsserver-Datenextraktion
-python3 datenextraktion_kompetenzen.py
-python3 datenextraktion_themen.py
-
-## Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz veröffentlicht. 
-
-## Kontakt
-
-Bei Fragen oder Unterstützung eröffnen Sie bitte ein Issue oder kontaktieren Sie mich unter mario.scholz@lk.brandenburg.de.
+**## Anwendung**
