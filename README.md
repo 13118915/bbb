@@ -1,3 +1,4 @@
+
 # Bildungsserver Datenextraktion und Datenbankerstellung
 
 Dieses Repository enthält zwei Skripte zur Extraktion von Bildungsdaten von der Webseite des Bildungsservers Berlin-Brandenburg und zur Speicherung dieser Daten in SQLite-Datenbanken.
@@ -43,6 +44,24 @@ Jede Datenbank, die von diesem Skript erstellt wird, enthält mehrere Tabellen:
 Stellen Sie sicher, dass Sie Python 3 und die benötigten Bibliotheken installiert haben. Die Bibliotheken können mit pip installiert werden:
 
 ```bash
-pip install requests beautifulsoup4 pandas
+pip install requests beautifulsoup4 pandas sqlite3
+```
 
-**## Anwendung**
+## Anwendung
+
+Klonen Sie das Repository und führen Sie die Skripte wie folgt aus:
+
+```bash
+git clone https://github.com/IhrBenutzername/Bildungsserver-Datenextraktion.git
+cd Bildungsserver-Datenextraktion
+python3 datenextraktion_kompetenzen.py
+python3 datenextraktion_themen.py
+```
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz veröffentlicht. Weitere Informationen finden Sie in der `LICENSE` Datei.
+
+## Kontakt
+
+Bei Fragen oder Unterstützung eröffnen Sie bitte ein Issue oder kontaktieren Sie mich unter mario.scholz@lk.brandenburg.de.
